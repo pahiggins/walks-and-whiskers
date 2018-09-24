@@ -1,8 +1,8 @@
 .header {
     background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary-light, 0.8),
-        rgba($color-primary-dark, 0.8)),
+        rgba($color-primary-light, 0.6),
+        rgba($color-primary-dark, 0.6)),
     url(../img/hero-small.jpg);
     background-position: top;
     background-size: cover;
@@ -21,8 +21,8 @@
         only screen and (min-width: 125em) {
         background-image: linear-gradient(
             to right bottom,
-            rgba($color-primary-light, 0.8),
-            rgba($color-primary-dark, 0.8)),
+            rgba($color-primary-light, 0.6),
+            rgba($color-primary-dark, 0.6)),
         url(../img/hero.jpg);
     }
 
@@ -32,13 +32,13 @@
     }
 
     &__logo-box {
-        left: 4rem;
+        left: 3.25rem;
         position: absolute;
-        top: 4rem;
+        top: 3.25rem;
     }
 
     &__logo {
-        height: 3.5rem;
+        height: 7rem;
     }
 
     &__text-box {
@@ -47,5 +47,6 @@
         text-align: center;
         top: 40%;
         transform: translate(-50%, -50%);
+        width: 100%;
     }
 }

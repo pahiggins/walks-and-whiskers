@@ -17,7 +17,7 @@ body {
         display: block;
         font-size: 6rem;
         font-weight: 400;
-        letter-spacing: 3.5rem;
+        letter-spacing: 1.75rem;
 
         @include respond(phone) {
             font-size: 5rem;
@@ -30,7 +30,7 @@ body {
         display: block;
         font-size: 2rem;
         font-weight: 700;
-        letter-spacing: 1.75rem;
+        letter-spacing: 1.25rem;
 
         @include respond(phone) {
             letter-spacing: .5rem;
