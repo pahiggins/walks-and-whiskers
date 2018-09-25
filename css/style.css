@@ -654,6 +654,15 @@ body {
   .footer__logo {
     height: auto;
     width: 5rem; }
+  .footer__logo-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 1rem; }
+    @media only screen and (max-width: 37.5em) {
+      .footer__logo-text {
+        font-size: 4rem;
+        letter-spacing: 1rem; } }
   .footer__navigation {
     display: inline-block;
     padding-top: 2rem; }

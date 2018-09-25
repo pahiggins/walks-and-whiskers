@@ -22,6 +22,18 @@
         width: 5rem;
     }
 
+    &__logo-text {
+        font-family: 'Dancing Script', cursive;
+        font-size: 5rem;
+        font-weight: 700;
+        letter-spacing: 1rem;
+
+        @include respond(phone) {
+            font-size: 4rem;
+            letter-spacing: 1rem;
+        }
+    }
+
     &__navigation {
         // border-top: .1rem solid $color-grey-dark-1;
         display: inline-block;
