@@ -545,10 +545,8 @@ body {
       .popup__right {
         width: 100%; } }
   .popup__text {
-    column-count: 2;
-    column-gap: 4rem;
     column-rule: 0.1rem solid #eee;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     -moz-column-count: 2;
     -moz-column-gap: 4rem;
     -moz-column-rule: 0.1rem solid #eee; }
