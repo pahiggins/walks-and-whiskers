@@ -201,13 +201,6 @@
             </section>
 
             <section class="section-stories" id="testimonials">
-                <div class="bg-video">
-                    <video class="bg-video__content" autoplay muted loop>
-                        <source src="img/video.mp4" type="video/mp4">
-                        <source src="img/video.webm" type="video/webm">
-                        Your browser is not supported!
-                    </video>
-                </div>
                 <div class="u-center-text u-margin-bottom-large">
                     <h2 class="heading-secondary">
                         Don't just take our word for it
@@ -237,11 +230,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="u-center-text u-margin-top-x-large">
-                    <a href="#" class="btn-text">
-                        Read all stories &rarr;
-                    </a>
-                </div>
             </section>
 
             <section class="section-book" id="contact">
@@ -262,21 +250,9 @@
                                     <input type="email" class="form__input" placeholder="Email" id="email" required>
                                     <label for="email" class="form__label">Email</label>
                                 </div>
-                                <div class="form__group u-margin-bottom-medium">
-                                    <div class="form__radio-group">
-                                        <input type="radio" class="form__radio-input" id="radio-1" name="radio-group-1">
-                                        <label for="radio-1" class="form__radio-label">
-                                            <span class="form__radio-button"></span>
-                                            Small tour group
-                                        </label>
-                                    </div>
-                                    <div class="form__radio-group">
-                                        <input type="radio" class="form__radio-input" id="radio-2" name="radio-group-1">
-                                        <label for="radio-2" class="form__radio-label">
-                                            <span class="form__radio-button"></span>
-                                            Large tour group
-                                        </label>
-                                    </div>
+                                <div class="form__group">
+                                    <textarea rows="6" type="text" class="form__input" placeholder="Message" id="message" required></textarea>
+                                    <label for="message" class="form__label">Message</label>
                                 </div>
                                 <div class="form__group">
                                     <button class="btn btn--primary">Send message &rarr;</button>
@@ -290,10 +266,6 @@
 
         <footer class="footer">
             <div class="footer__logo-box">
-                <!-- <picture class="footer__logo">
-                    <source srcset="img/logo-white.png 1x, img/logo-white.png.png 2x" media="(max-width: 37.5em)" src="img/img/logo-white.png">
-                    <img srcset="img/logo-white.png 1x, img/logo-white.png 2x" alt="Full logo" class="footer__logo">
-                </picture> -->
                 <span class="footer__logo-text">Walks & Whiskers</span>
             </div>
             <div class="row">
@@ -333,5 +305,7 @@
                 </div>
             </div>
         </div>
+
+        <script src="./js/index.js"></script>
     </body>
 </html>
