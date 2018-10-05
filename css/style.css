@@ -79,14 +79,13 @@ body {
     letter-spacing: 1rem; }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--main {
-        font-size: 6rem;
-        letter-spacing: 1rem; } }
+        font-size: 6rem; } }
   .heading-primary--sub {
     animation: moveInRight 1s ease-out;
     display: block;
     font-size: 2.75rem;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: .75rem; }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--sub {
@@ -215,7 +214,7 @@ body {
   transform: translateY(0); }
 
 .card {
-  height: 52rem;
+  height: 42rem;
   perspective: 150rem;
   position: relative;
   -moz-perspective: 150rem; }
@@ -224,7 +223,7 @@ body {
     backface-visibility: hidden;
     border-radius: .3rem;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-    height: 52rem;
+    height: 42rem;
     left: 0;
     overflow: hidden;
     position: absolute;
@@ -281,13 +280,16 @@ body {
     .card__heading-span--3 {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
   .card__details {
+    align-items: center;
+    display: flex;
+    height: 20rem;
     padding: 3rem; }
     .card__details ul {
       list-style: none;
       margin: 0 auto;
       width: 80%; }
       .card__details ul li {
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding: 1rem;
         text-align: center; }
         .card__details ul li:not(:last-child) {
@@ -433,7 +435,7 @@ body {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
     outline: none; }
     .form__input:focus:invalid {
-      border-bottom: 3px solid #FF5630; }
+      border-bottom: 3px solid #ff7730; }
   .form__input::-webkit-input-placeholder {
     color: #999; }
 
@@ -661,8 +663,7 @@ body {
     letter-spacing: 1rem; }
     @media only screen and (max-width: 37.5em) {
       .footer__logo-text {
-        font-size: 4rem;
-        letter-spacing: 1rem; } }
+        font-size: 4rem; } }
   .footer__navigation {
     display: inline-block;
     padding-top: 2rem; }
