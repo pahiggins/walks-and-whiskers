@@ -59,15 +59,15 @@
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
         &--1 {
-            background-image: linear-gradient(to right bottom, $color-warning-light, $color-warning-dark), url(../img/nat-5.jpg);
+            background-image: linear-gradient(to right bottom, $color-warning-light, $color-warning-dark), url(../img/dog-2.jpg);
         }
 
         &--2 {
-            background-image: linear-gradient(to right bottom, $color-primary, $color-primary), url(../img/nat-6.jpg); // Change this back!
+            background-image: linear-gradient(to right bottom, $color-primary, $color-primary), url(../img/dog-1.jpg); // Change this back!
         }
 
         &--3 {
-            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/nat-7.jpg);
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/dog-3.jpg);
         }
     }
 

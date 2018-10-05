@@ -25,6 +25,7 @@
         display: inline-block;
         font-size: 6rem;
         margin-bottom: .5rem;
+        padding: 2rem;
         -webkit-background-clip: text;
 
         @include respond(tab-port) {
