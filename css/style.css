@@ -254,11 +254,11 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #FF5630), url(../img/dog-2.jpg); }
+      background-image: linear-gradient(to right bottom, #ffb900, #FF5630), url(../img/dog-4.jpg); }
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #36B37E, #36B37E), url(../img/dog-1.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/dog-3.jpg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/cat-1.jpg); }
   .card__heading {
     color: #fff;
     font-size: 2.8rem;
@@ -289,7 +289,7 @@ body {
       margin: 0 auto;
       width: 80%; }
       .card__details ul li {
-        font-size: 2rem;
+        font-size: 1.6rem;
         padding: 1rem;
         text-align: center; }
         .card__details ul li:not(:last-child) {
@@ -642,10 +642,15 @@ body {
   background-color: #222831;
   color: #eee;
   font-size: 1.4rem;
-  padding: 10rem 0 3rem 0; }
+  padding: 3rem 0 3rem 0; }
   @media only screen and (max-width: 56.25em) {
     .footer {
       padding: 8rem 0 3rem 0; } }
+  .footer__social-box {
+    display: flex;
+    justify-content: flex-end; }
+  .footer__social-icon {
+    font-size: 5rem; }
   .footer__logo-box {
     text-align: center;
     margin-bottom: 8rem; }
