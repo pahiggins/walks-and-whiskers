@@ -578,6 +578,7 @@ body {
   border-radius: .3rem;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   font-size: 1.6rem;
+  height: 25rem;
   margin: 0 auto;
   padding: 6rem;
   padding-left: 9rem;
@@ -612,7 +613,7 @@ body {
         transform: translateX(-3rem) skewX(0); } }
   .story__image {
     height: 100%;
-    transform: translateX(-4rem) scale(1.4);
+    transform: translateX(0) scale(1);
     transition: all .5s; }
   .story__text {
     transform: skewX(12deg); }
@@ -636,7 +637,7 @@ body {
     transform: translate(-50%, -50%); }
   .story:hover .story__image {
     filter: blur(0.3rem) brightness(80%);
-    transform: translateX(-4rem) scale(1); }
+    transform: translateX(0) scale(1.2); }
 
 .footer {
   background-color: #222831;

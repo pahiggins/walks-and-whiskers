@@ -3,6 +3,7 @@
     border-radius: .3rem;
     box-shadow: 0 3rem 6rem rgba($color-black, .1);
     font-size: $default-font-size;
+    height: 25rem;
     margin: 0 auto;
     padding: 6rem;
     padding-left: 9rem;
@@ -44,7 +45,7 @@
 
     &__image {
         height: 100%;
-        transform: translateX(-4rem) scale(1.4);
+        transform: translateX(0) scale(1);
         transition: all .5s;
     }
 
@@ -77,6 +78,6 @@
 
     &:hover &__image {
         filter: blur(.3rem) brightness(80%);
-        transform: translateX(-4rem) scale(1);
+        transform: translateX(0) scale(1.2);
     }
 }
