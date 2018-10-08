@@ -11,10 +11,18 @@
     &__social-box {
         display: flex;
         justify-content: flex-end;
+        margin-bottom: 0 !important; // TODO: Fix this.
     }
 
     &__social-icon {
+        color: $color-white;
         font-size: 5rem;
+        cursor: pointer;
+        transition: all .3s;
+
+        &:hover {
+            color: $color-primary;
+        }
     }
 
     &__logo-box {

@@ -648,9 +648,15 @@ body {
       padding: 8rem 0 3rem 0; } }
   .footer__social-box {
     display: flex;
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    margin-bottom: 0 !important; }
   .footer__social-icon {
-    font-size: 5rem; }
+    color: #fff;
+    font-size: 5rem;
+    cursor: pointer;
+    transition: all .3s; }
+    .footer__social-icon:hover {
+      color: #36B37E; }
   .footer__logo-box {
     text-align: center;
     margin-bottom: 8rem; }
