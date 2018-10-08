@@ -67,7 +67,7 @@
         rgba($color-white, .9) 0%,
         rgba($color-white, .9) 50%,
         rgba($color-white, 0) 50%),
-        url(../img/dogs.jpg);
+        url(../img/dog-6.jpg);
     background-size: cover;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
@@ -78,7 +78,7 @@
             rgba($color-white, .9) 0%,
             rgba($color-white, .9) 65%,
             rgba($color-white, 0) 65%),
-            url(../img/dogs.jpg);
+            url(../img/dog-6.jpg);
     }
 
     @include respond(tab-port) {
@@ -86,7 +86,7 @@
             to right,
             rgba($color-white, .9) 0%,
             rgba($color-white, .9) 100%),
-            url(../img/dogs.jpg);
+            url(../img/dog-6.jpg);
     }
 
     &__form {
