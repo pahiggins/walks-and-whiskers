@@ -640,7 +640,7 @@ body {
     transform: translateX(0) scale(1.2); }
 
 .footer {
-  background-color: #343434;
+  background-color: #000;
   color: #eee;
   font-size: 1.4rem;
   padding: 3rem 0 3rem 0; }
@@ -666,7 +666,7 @@ body {
         margin-bottom: 6rem; } }
   .footer__logo {
     height: auto;
-    width: 5rem; }
+    width: 50%; }
   .footer__logo-text {
     font-family: 'Dancing Script', cursive;
     font-size: 5rem;

@@ -1,5 +1,6 @@
 .footer {
-    background-color: $color-primary-dark;
+    // background-color: $color-primary-dark;
+    background-color: $color-black; //TODO: Remove.
     color: $color-grey-light-1;
     font-size: 1.4rem;
     padding: 3rem 0 3rem 0;
@@ -36,7 +37,7 @@
 
     &__logo {
         height: auto;
-        width: 5rem;
+        width: 50%;
     }
 
     &__logo-text {
