@@ -1,5 +1,3 @@
-console.log('Hello');
-
 $('#contact-form').submit(function(e) {
     const name = document.getElementById('name');
     const email = document.getElementById('email');
