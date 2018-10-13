@@ -398,7 +398,8 @@ body {
   transition: transform .3s; }
   @media only screen and (max-width: 56.25em) {
     .feature-box {
-      padding: 2rem; } }
+      height: 30rem;
+      padding: 5rem; } }
   .feature-box__icon {
     background-image: linear-gradient(to right, #e9bb35, #d3a317);
     color: transparent;
@@ -586,11 +587,13 @@ body {
   width: 75%; }
   @media only screen and (max-width: 56.25em) {
     .story {
-      padding: 4rem;
+      height: 27rem;
+      padding: 6rem;
       padding-left: 7rem;
       width: 100%; } }
   @media only screen and (max-width: 37.5em) {
     .story {
+      height: 35rem;
       transform: skewX(0); } }
   .story__shape {
     border-radius: 50%;
@@ -715,7 +718,11 @@ body {
   max-width: 114rem; }
   @media only screen and (max-width: 56.25em) {
     .row {
-      max-width: 50rem;
+      max-width: 66.66666%;
+      padding: 0 3rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .row {
+      max-width: 80%;
       padding: 0 3rem; } }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -751,7 +758,7 @@ body {
     width: calc(((100% - 18rem) / 4) * 3 + 6rem * 2); }
 
 .header {
-  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.6), rgba(52, 52, 52, 0.6)), url(../img/hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.6), rgba(52, 52, 52, 0.6)), url(../img/hero-small.jpg);
   background-position: top;
   background-size: cover;
   height: 85vh;
@@ -910,6 +917,9 @@ body {
   background-color: #eee;
   margin-top: -20vh;
   padding: 25rem 0; }
+  @media only screen and (max-width: 56.25em) {
+    .section-about {
+      padding: 30rem 0; } }
 
 .section-features {
   background-color: #f7f7f7;
@@ -921,7 +931,7 @@ body {
     transform: skewY(7deg); }
   @media only screen and (max-width: 56.25em) {
     .section-features {
-      padding: 10rem 0; } }
+      padding: 15rem 0; } }
 
 .section-tours {
   background-color: #eee;
@@ -929,7 +939,7 @@ body {
   padding: 25rem 0 15rem 0; }
   @media only screen and (max-width: 56.25em) {
     .section-tours {
-      padding: 20rem 0 10rem 0; } }
+      padding: 25rem 0 10rem 0; } }
 
 .section-stories {
   background-color: #f7f7f7;
