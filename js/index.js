@@ -7,7 +7,7 @@
 //         alertify.error('Name, email and message are required.');
 //     } else {
 //         $.ajax({
-//             url: "https://formspree.io/p3rh5s@gmail.com",
+//             url: "https://formspree.io/info@walksandwhiskers.co.uk",
 //             method: "POST",
 //             data: $(this).serialize(),
 //             dataType: "json"

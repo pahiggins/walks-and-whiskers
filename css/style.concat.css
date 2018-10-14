@@ -643,7 +643,7 @@ body {
     transform: translateX(0) scale(1.2); }
 
 .footer {
-  background-color: #000;
+  background-color: #343434;
   color: #eee;
   font-size: 1.4rem;
   padding: 3rem 0 3rem 0; }
@@ -780,7 +780,10 @@ body {
     position: absolute;
     top: 3.25rem; }
   .header__logo {
-    height: 7rem; }
+    height: 20rem; }
+    @media only screen and (max-width: 37.5em) {
+      .header__logo {
+        height: 15rem; } }
   .header__text-box {
     left: 50%;
     position: absolute;
