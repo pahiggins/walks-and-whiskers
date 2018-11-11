@@ -18,6 +18,7 @@
     }
 
     @include respond(phone) {
+        font-size: $large-font-size;
         height: auto;
         padding-left: 5rem;
         transform: skewX(0);

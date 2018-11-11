@@ -119,12 +119,16 @@
             width: 80%;
 
             li {
-                font-size: 1.6rem;
+                font-size: $default-font-size;
                 padding: 1rem;
                 text-align: center;
 
                 &:not(:last-child) {
                     border-bottom: .1rem solid $color-grey-light-1;
+                }
+
+                @include respond(phone) {
+                    font-size: $large-font-size;
                 }
             }
         }
