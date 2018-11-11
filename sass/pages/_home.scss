@@ -103,6 +103,7 @@
 
         @include respond(phone) {
             padding: 3rem;
+            text-align: center;
         }
     }
 }

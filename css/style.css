@@ -1013,4 +1013,5 @@ body {
         width: 100%; } }
     @media only screen and (max-width: 37.5em) {
       .book__form {
-        padding: 3rem; } }
+        padding: 3rem;
+        text-align: center; } }
