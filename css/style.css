@@ -790,7 +790,7 @@ body {
 
 .header {
   background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.6), rgba(52, 52, 52, 0.6)), url(../img/hero-small.jpg);
-  background-position: top;
+  background-position: 15%;
   background-size: cover;
   height: 85vh;
   position: relative; }
@@ -801,7 +801,8 @@ body {
       height: 95vh; } }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .header {
-      background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.6), rgba(52, 52, 52, 0.6)), url(../img/hero.jpg); } }
+      background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.6), rgba(52, 52, 52, 0.6)), url(../img/hero.jpg);
+      background-position: top; } }
   @media only screen and (max-width: 37.5em) {
     .header {
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);

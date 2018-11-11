@@ -4,7 +4,7 @@
         rgba($color-primary-light, 0.6),
         rgba($color-primary-dark, 0.6)),
     url(../img/hero-small.jpg);
-    background-position: top;
+    background-position: 15%;
     background-size: cover;
     height: 85vh;
     position: relative;
@@ -24,6 +24,7 @@
             rgba($color-primary-light, 0.6),
             rgba($color-primary-dark, 0.6)),
         url(../img/hero.jpg);
+        background-position: top;
     }
 
     @include respond(phone) {
